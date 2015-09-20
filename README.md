@@ -1,14 +1,14 @@
-This is a bash script for git filter-branch to shift timestamps.
+This is a shell script for git filter-branch to shift timestamps.
 
 # Usage
 
 ```
-$ git filter-branch --env-filter "source path/to/shift-git-timestamp.bash '+ 3 hours'"
+$ git filter-branch --env-filter "source path/to/shift-git-timestamp.sh '+ 3 hours'"
 ```
 
 # Requirements
 
-- bash
+- sh
 - GNU date
 
 # License

@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 # License: CC0
 
-function timeshift() {
+timeshift() {
     # git internal format (e.g. "@1439045814 +0900")
     local GIT_TIMESTAMP=$1
     # `date` relative items (e.g. "+1 hour")
